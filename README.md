@@ -37,15 +37,13 @@ Predict whether a loan applicant will **default** using demographic and financia
 ## 📁 Project Structure
 
 loan-default-prediction-app/
-│
-├── app.py # Streamlit app script
-├── model.pkl # Trained ML model
-├── scaler.pkl # Scaler object
-├── smote.pkl # SMOTE object
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+- app.py                # Streamlit app script
+- model.pkl             # Trained ML model
+- scaler.pkl            # Scaler object
+- smote.pkl             # SMOTE object
+- requirements.txt      # Python dependencies
+- README.md             # Project documentation
 ---
-
 ## 🧠 Machine Learning Workflow
 
 - **Data Preprocessing**:
@@ -60,7 +58,6 @@ loan-default-prediction-app/
 
 - **Deployment**:
   - App deployed on [Streamlit Cloud](https://streamlit.io/cloud)
-
 ---
 
 ## 🚀 How to Run Locally
@@ -80,7 +77,7 @@ xgboost
 imbalanced-learn
 joblib
 
-Install all dependencies using:
+## Install all dependencies using:
 pip install -r requirements.txt
 
 📌 Author
